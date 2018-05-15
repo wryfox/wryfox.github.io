@@ -1,0 +1,33 @@
+:root {
+    --wryfox-blue-3: #03899C;
+    --wryfox-blue-1: #48A8B5;
+    --wryfox-blue-2: #2793A2;
+    --wryfox-blue-4: #026A79;
+    --wryfox-blue-5: #01535F;
+  
+    --wryfox-red-2: #FF4739;
+    --wryfox-red-1: #FF6E63;
+    --wryfox-red-3: #FF1300;
+    --wryfox-red-4: #C50E00;
+    --wryfox-red-5: #9B0B00;
+  
+    --wryfox-gold-3: #FFAE00;
+    --wryfox-gold-2: #FFC039;
+    --wryfox-gold-1: #FFCE63;
+  
+    --wryfox-white: #ffffff;
+    --wryfox-grey-1: #E3E3E3;
+    --wryfox-grey-2: #AEAEAE;
+    --wryfox-grey-3: #393939;
+    --wryfox-grey-4: #081112;
+  
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+}
+canvas {
+    background-color: var(--wryfox-blue-1);
+    display: block;
+}

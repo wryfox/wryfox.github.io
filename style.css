@@ -20,6 +20,8 @@
     --wryfox-grey-2: #AEAEAE;
     --wryfox-grey-3: #393939;
     --wryfox-grey-4: #081112;
+
+    --wryfox-background-blue: rgba(72, 168, 181, 0.514);
   
   }
   
@@ -28,6 +30,6 @@ body {
     padding: 0;
 }
 canvas {
-    background-color: var(--wryfox-blue-1);
+    background-color: var(--wryfox-background-blue);
     display: block;
 }

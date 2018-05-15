@@ -2074,7 +2074,7 @@ a,
 .section-presentation-page h1 {
   font-weight: 400;
   font-size: 3.6em;
-  text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.3), -2px 4px 2px rgba(0, 0, 0, 0.1);
+  /* text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.3), -2px 4px 2px rgba(0, 0, 0, 0.1); */
 }
 
 .text-shadow {

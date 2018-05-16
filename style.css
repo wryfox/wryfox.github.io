@@ -18,11 +18,22 @@
     --wryfox-white: #ffffff;
     --wryfox-grey-1: #E3E3E3;
     --wryfox-grey-2: #AEAEAE;
-    --wryfox-grey-3: #393939;
-    --wryfox-grey-4: #081112;
+    --wryfox-grey-3: hsl(0, 0%, 22%);
+    --wryfox-grey-4: rgb(8, 17, 18);
 
     --wryfox-background-blue: rgba(72, 168, 181, 0.514);
-  
+    --circle-blue-1: #EAF9F4;
+    --circle-blue-2: #D8F0ED;
+    --circle-blue-3: #C6E7E6;
+    --circle-blue-4: #B4DEDF;
+    --circle-blue-5: #A2D5D8;
+    --circle-blue-5: #90CCD1;
+    --circle-blue-5: #7EC3CA;
+    --circle-blue-6: #6CBAC3;
+    --circle-blue-7: #5AB1BC;
+    --circle-blue-8: #3A8691;
+    --circle-blue-9: #4197A3;
+
   }
   
 body {
@@ -30,6 +41,8 @@ body {
     padding: 0;
 }
 canvas {
-    background-color: var(--wryfox-background-blue);
+    background-color: var(--wryfox-blue-3);
     display: block;
 }
+
+

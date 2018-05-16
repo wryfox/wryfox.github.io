@@ -10,17 +10,31 @@ var mouse = {
   y: undefined
 }
 
-var maxRadius = 80;
+var maxRadius = 50;
 var minRadius = 2;
 
 var colorArray = [
-  '#03899C',
+  //blues
+  // '#EAF9F4',
+  // '#D8F0ED',
+  // '#C6E7E6',
+  // '#B4DEDF',
+  // '#A2D5D8',
+  // '#90CCD1',
+  '#7EC3CA',
+  '#6CBAC3',
+  '#5AB1BC',
+  '#3A8691',
+  // '#03899C',
   '#2793A2',
   '#026A79',
+  '#48A8B5',
+  //reds
   '#FF6E63',
-  'rgb(253, 137, 129)',
-  'rgb(250, 166, 160)',
-  'rgb(104, 170, 179)',
+  '#FFAAA3',
+  '#FF7D73',
+  '#FF4739',
+
 ];
 
 window.addEventListener('DOMContentLoaded', function() {

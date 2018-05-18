@@ -48,7 +48,7 @@ canvas {
 .logo {
     text-align: center;
     background-color: transparent;
-    background-image: url('wryfox2x.png');
+    background-image: url('assets/wryfox2x.png');
     background-size: contain;
     background-position: 50% 0%; 
     background-repeat: no-repeat;

@@ -61,17 +61,17 @@ body {
 }
 @media (min-width: 115em) {
   body {
-    font-size: 110%;
+    font-size: 100%;
   }
 }
 @media (min-width: 125em) {
   body {
-    font-size: 115%;
+    font-size: 100%;
   }
 }
 @media (min-width: 145em) {
   body {
-    font-size: 120%;
+    font-size: 100%;
   }
 }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -96,7 +96,7 @@ h6,
 .content-blog p {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: "Montserrat", "Helvetica", sans-serif;
+  font-family: "Lato", "Helvetica", sans-serif;
 }
 h1 a,
 .h1 a,
@@ -126,7 +126,7 @@ h6 a,
 h1, .h1 {
   font-size: 3em;
   line-height: 1.213483146em;
-  font-weight: bold;
+  font-weight: regular;
 }
 
 h2, .h2 {

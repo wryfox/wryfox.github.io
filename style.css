@@ -4,6 +4,8 @@
     --wryfox-blue-2: #2793A2;
     --wryfox-blue-4: #026A79;
     --wryfox-blue-5: #01535F;
+    --wryfox-blue-6: rgb(1, 61, 70);
+
   
     --wryfox-red-2: #FF4739;
     --wryfox-red-1: #FF6E63;
@@ -33,6 +35,16 @@
     --circle-blue-7: #5AB1BC;
     --circle-blue-8: #3A8691;
     --circle-blue-9: #4197A3;
+    
+
+    --circle-red-1: rgb(250, 143, 135);
+    --circle-red-2: rgb(248, 165, 159);
+    --circle-red-3: rgb(250, 185, 181);
+    --circle-red-4: rgb(250, 200, 198);
+    --circle-red-5: rgb(252, 217, 216);
+
+
+
 
   }
   
@@ -41,7 +53,7 @@ body {
     padding: 0;
 }
 canvas {
-    background-color: var(--wryfox-blue-3);
+    background-color: var(--wryfox-red-2);
     display: block;
 }
 
@@ -60,9 +72,18 @@ canvas {
 
 
 .landing-text {
-    font-family: 'Lato';
+    font-family: "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    /* line-height: 37.4px; */
+    /* font-family: 'Lato';
     font-weight: 400;
-    font-size: 2em;
+    font-size: 2em; */
     color: white;
     margin-top: 3%;
     margin-bottom: 5%;

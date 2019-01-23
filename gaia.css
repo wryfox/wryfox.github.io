@@ -3655,6 +3655,7 @@ body {
 
   .navbar-fixed-top {
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
   }
 
   .social-line .btn {

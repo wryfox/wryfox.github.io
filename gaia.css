@@ -42,7 +42,7 @@
 }
 
 html {
-  font-size: 14px;
+  font-size: 18px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -112,7 +112,15 @@ h6 a,
 .h6 a,
 .content-blog p a {
   font-size: inherit;
-  font-family: "Montserrat", "Helvetica", sans-serif;
+  /* font-family: "Montserrat", "Helvetica", sans-serif; */
+  font-family: "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
 }
 
 .content-blog {
@@ -173,7 +181,7 @@ td,
 small,
 .media h5,
 .subtitle {
-  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -195,8 +203,14 @@ a:hover {
 }
 
 .title-modern {
-  font-family:'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-family: "Helvetica Neue",
+  Helvetica,
+  Arial,
+  sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600; 
 }
 
 .text-gray {
